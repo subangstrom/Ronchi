@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Aberration" representedClassName="Aberration" syncable="YES" codeGenerationType="class">
+        <attribute name="cnma" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cnmb" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="haiderLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="krivanekLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="label" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="m" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="max" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="min" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="n" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="unit" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Unit" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="label"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Microscope" representedClassName="Microscope" syncable="YES" codeGenerationType="class">
+        <relationship name="aberration" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Aberration" syncable="YES"/>
+    </entity>
+    <entity name="Unit" representedClassName="Unit" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="aberrations" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Aberration" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Unit" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Aberration" positionX="-54" positionY="-9" width="128" height="195"/>
+        <element name="Microscope" positionX="-36" positionY="9" width="128" height="60"/>
+    </elements>
+</model>

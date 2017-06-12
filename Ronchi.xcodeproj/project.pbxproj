@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5DC09AC1EEF3D4300FF8E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09AB1EEF3D4300FF8E07 /* AppDelegate.swift */; };
+		A5DC09AE1EEF3D4300FF8E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09AD1EEF3D4300FF8E07 /* ViewController.swift */; };
+		A5DC09B11EEF3D4300FF8E07 /* Ronchi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09AF1EEF3D4300FF8E07 /* Ronchi.xcdatamodeld */; };
+		A5DC09B31EEF3D4300FF8E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DC09B21EEF3D4300FF8E07 /* Assets.xcassets */; };
+		A5DC09B61EEF3D4300FF8E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DC09B41EEF3D4300FF8E07 /* Main.storyboard */; };
+		A5DC09C61EEF3E7C00FF8E07 /* MathFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DC09C41EEF3E7C00FF8E07 /* MathFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DC09C91EEF3E7C00FF8E07 /* MathFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DC09C21EEF3E7C00FF8E07 /* MathFramework.framework */; };
+		A5DC09CA1EEF3E7C00FF8E07 /* MathFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5DC09C21EEF3E7C00FF8E07 /* MathFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5DC09D11EEF3E9700FF8E07 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09CF1EEF3E9700FF8E07 /* MathFunctions.swift */; };
+		A5DC09D21EEF3E9700FF8E07 /* MFFftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09D01EEF3E9700FF8E07 /* MFFftController.swift */; };
+		A5DC09D51EEF3EAB00FF8E07 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09D31EEF3EAB00FF8E07 /* Matrix.swift */; };
+		A5DC09D61EEF3EAB00FF8E07 /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09D41EEF3EAB00FF8E07 /* Potential.swift */; };
+		A5DC09D81EEF3EBC00FF8E07 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09D71EEF3EBC00FF8E07 /* Complex.swift */; };
+		A5DC09DD1EEF3F6200FF8E07 /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09DB1EEF3F6200FF8E07 /* Potential.swift */; };
+		A5DC09DE1EEF3F6200FF8E07 /* Probe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09DC1EEF3F6200FF8E07 /* Probe.swift */; };
+		A5DC09E11EEF3F9200FF8E07 /* HMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09E01EEF3F9200FF8E07 /* HMImageView.swift */; };
+		A5DC09E31EEF3F9C00FF8E07 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC09E21EEF3F9C00FF8E07 /* PreferencesController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5DC09C71EEF3E7C00FF8E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DC09A01EEF3D4300FF8E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5DC09C11EEF3E7C00FF8E07;
+			remoteInfo = MathFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5DC09CE1EEF3E7C00FF8E07 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5DC09CA1EEF3E7C00FF8E07 /* MathFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5DC09A81EEF3D4300FF8E07 /* Ronchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ronchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC09AB1EEF3D4300FF8E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5DC09AD1EEF3D4300FF8E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5DC09B01EEF3D4300FF8E07 /* Ronchi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ronchi.xcdatamodel; sourceTree = "<group>"; };
+		A5DC09B21EEF3D4300FF8E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5DC09B51EEF3D4300FF8E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5DC09B71EEF3D4300FF8E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DC09C21EEF3E7C00FF8E07 /* MathFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MathFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC09C41EEF3E7C00FF8E07 /* MathFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathFramework.h; sourceTree = "<group>"; };
+		A5DC09C51EEF3E7C00FF8E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DC09CF1EEF3E9700FF8E07 /* MathFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathFunctions.swift; sourceTree = "<group>"; };
+		A5DC09D01EEF3E9700FF8E07 /* MFFftController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFFftController.swift; sourceTree = "<group>"; };
+		A5DC09D31EEF3EAB00FF8E07 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		A5DC09D41EEF3EAB00FF8E07 /* Potential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
+		A5DC09D71EEF3EBC00FF8E07 /* Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		A5DC09DB1EEF3F6200FF8E07 /* Potential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
+		A5DC09DC1EEF3F6200FF8E07 /* Probe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Probe.swift; sourceTree = "<group>"; };
+		A5DC09DF1EEF3F8100FF8E07 /* AppDelegate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate2.swift; sourceTree = "<group>"; };
+		A5DC09E01EEF3F9200FF8E07 /* HMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMImageView.swift; sourceTree = "<group>"; };
+		A5DC09E21EEF3F9C00FF8E07 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5DC09A51EEF3D4300FF8E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DC09C91EEF3E7C00FF8E07 /* MathFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DC09BE1EEF3E7C00FF8E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5DC099F1EEF3D4300FF8E07 = {
+			isa = PBXGroup;
+			children = (
+				A5DC09AA1EEF3D4300FF8E07 /* Ronchi */,
+				A5DC09C31EEF3E7C00FF8E07 /* MathFramework */,
+				A5DC09A91EEF3D4300FF8E07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5DC09A91EEF3D4300FF8E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC09A81EEF3D4300FF8E07 /* Ronchi.app */,
+				A5DC09C21EEF3E7C00FF8E07 /* MathFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5DC09AA1EEF3D4300FF8E07 /* Ronchi */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC09DF1EEF3F8100FF8E07 /* AppDelegate2.swift */,
+				A5DC09AB1EEF3D4300FF8E07 /* AppDelegate.swift */,
+				A5DC09AD1EEF3D4300FF8E07 /* ViewController.swift */,
+				A5DC09E01EEF3F9200FF8E07 /* HMImageView.swift */,
+				A5DC09DB1EEF3F6200FF8E07 /* Potential.swift */,
+				A5DC09E21EEF3F9C00FF8E07 /* PreferencesController.swift */,
+				A5DC09DC1EEF3F6200FF8E07 /* Probe.swift */,
+				A5DC09B21EEF3D4300FF8E07 /* Assets.xcassets */,
+				A5DC09B41EEF3D4300FF8E07 /* Main.storyboard */,
+				A5DC09B71EEF3D4300FF8E07 /* Info.plist */,
+				A5DC09AF1EEF3D4300FF8E07 /* Ronchi.xcdatamodeld */,
+			);
+			path = Ronchi;
+			sourceTree = "<group>";
+		};
+		A5DC09C31EEF3E7C00FF8E07 /* MathFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A5DC09C41EEF3E7C00FF8E07 /* MathFramework.h */,
+				A5DC09CF1EEF3E9700FF8E07 /* MathFunctions.swift */,
+				A5DC09D31EEF3EAB00FF8E07 /* Matrix.swift */,
+				A5DC09D71EEF3EBC00FF8E07 /* Complex.swift */,
+				A5DC09D41EEF3EAB00FF8E07 /* Potential.swift */,
+				A5DC09D01EEF3E9700FF8E07 /* MFFftController.swift */,
+				A5DC09C51EEF3E7C00FF8E07 /* Info.plist */,
+			);
+			path = MathFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5DC09BF1EEF3E7C00FF8E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DC09C61EEF3E7C00FF8E07 /* MathFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5DC09A71EEF3D4300FF8E07 /* Ronchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DC09BA1EEF3D4300FF8E07 /* Build configuration list for PBXNativeTarget "Ronchi" */;
+			buildPhases = (
+				A5DC09A41EEF3D4300FF8E07 /* Sources */,
+				A5DC09A51EEF3D4300FF8E07 /* Frameworks */,
+				A5DC09A61EEF3D4300FF8E07 /* Resources */,
+				A5DC09CE1EEF3E7C00FF8E07 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DC09C81EEF3E7C00FF8E07 /* PBXTargetDependency */,
+			);
+			name = Ronchi;
+			productName = Ronchi;
+			productReference = A5DC09A81EEF3D4300FF8E07 /* Ronchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5DC09C11EEF3E7C00FF8E07 /* MathFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DC09CD1EEF3E7C00FF8E07 /* Build configuration list for PBXNativeTarget "MathFramework" */;
+			buildPhases = (
+				A5DC09BD1EEF3E7C00FF8E07 /* Sources */,
+				A5DC09BE1EEF3E7C00FF8E07 /* Frameworks */,
+				A5DC09BF1EEF3E7C00FF8E07 /* Headers */,
+				A5DC09C01EEF3E7C00FF8E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathFramework;
+			productName = MathFramework;
+			productReference = A5DC09C21EEF3E7C00FF8E07 /* MathFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5DC09A01EEF3D4300FF8E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "The Handsome Microscopist";
+				TargetAttributes = {
+					A5DC09A71EEF3D4300FF8E07 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67JZ53W5NK;
+						ProvisioningStyle = Automatic;
+					};
+					A5DC09C11EEF3E7C00FF8E07 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67JZ53W5NK;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5DC09A31EEF3D4300FF8E07 /* Build configuration list for PBXProject "Ronchi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5DC099F1EEF3D4300FF8E07;
+			productRefGroup = A5DC09A91EEF3D4300FF8E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5DC09A71EEF3D4300FF8E07 /* Ronchi */,
+				A5DC09C11EEF3E7C00FF8E07 /* MathFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5DC09A61EEF3D4300FF8E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DC09B31EEF3D4300FF8E07 /* Assets.xcassets in Resources */,
+				A5DC09B61EEF3D4300FF8E07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DC09C01EEF3E7C00FF8E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5DC09A41EEF3D4300FF8E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DC09AE1EEF3D4300FF8E07 /* ViewController.swift in Sources */,
+				A5DC09AC1EEF3D4300FF8E07 /* AppDelegate.swift in Sources */,
+				A5DC09DE1EEF3F6200FF8E07 /* Probe.swift in Sources */,
+				A5DC09DD1EEF3F6200FF8E07 /* Potential.swift in Sources */,
+				A5DC09B11EEF3D4300FF8E07 /* Ronchi.xcdatamodeld in Sources */,
+				A5DC09E31EEF3F9C00FF8E07 /* PreferencesController.swift in Sources */,
+				A5DC09E11EEF3F9200FF8E07 /* HMImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DC09BD1EEF3E7C00FF8E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DC09D11EEF3E9700FF8E07 /* MathFunctions.swift in Sources */,
+				A5DC09D21EEF3E9700FF8E07 /* MFFftController.swift in Sources */,
+				A5DC09D61EEF3EAB00FF8E07 /* Potential.swift in Sources */,
+				A5DC09D81EEF3EBC00FF8E07 /* Complex.swift in Sources */,
+				A5DC09D51EEF3EAB00FF8E07 /* Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5DC09C81EEF3E7C00FF8E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5DC09C11EEF3E7C00FF8E07 /* MathFramework */;
+			targetProxy = A5DC09C71EEF3E7C00FF8E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5DC09B41EEF3D4300FF8E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5DC09B51EEF3D4300FF8E07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5DC09B81EEF3D4300FF8E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5DC09B91EEF3D4300FF8E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A5DC09BB1EEF3D4300FF8E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67JZ53W5NK;
+				INFOPLIST_FILE = Ronchi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HandsomeMicroscopist.Ronchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5DC09BC1EEF3D4300FF8E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67JZ53W5NK;
+				INFOPLIST_FILE = Ronchi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HandsomeMicroscopist.Ronchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A5DC09CB1EEF3E7C00FF8E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67JZ53W5NK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MathFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HandsomeMicroscopist.MathFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5DC09CC1EEF3E7C00FF8E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67JZ53W5NK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MathFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HandsomeMicroscopist.MathFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5DC09A31EEF3D4300FF8E07 /* Build configuration list for PBXProject "Ronchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DC09B81EEF3D4300FF8E07 /* Debug */,
+				A5DC09B91EEF3D4300FF8E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DC09BA1EEF3D4300FF8E07 /* Build configuration list for PBXNativeTarget "Ronchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DC09BB1EEF3D4300FF8E07 /* Debug */,
+				A5DC09BC1EEF3D4300FF8E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DC09CD1EEF3E7C00FF8E07 /* Build configuration list for PBXNativeTarget "MathFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DC09CB1EEF3E7C00FF8E07 /* Debug */,
+				A5DC09CC1EEF3E7C00FF8E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5DC09AF1EEF3D4300FF8E07 /* Ronchi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5DC09B01EEF3D4300FF8E07 /* Ronchi.xcdatamodel */,
+			);
+			currentVersion = A5DC09B01EEF3D4300FF8E07 /* Ronchi.xcdatamodel */;
+			path = Ronchi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5DC09A01EEF3D4300FF8E07 /* Project object */;
+}
