@@ -35,7 +35,7 @@ class PreferencesController: NSViewController, NSTableViewDataSource, NSTableVie
         let defaultsMO = defaultsObjectContext()
         
         let appDelegate = NSApplication.shared().delegate as! AppDelegate
-        _ = appDelegate.aberrations
+//        _ = appDelegate.aberrations
         
         
         let aberrationsFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "Aberration")
